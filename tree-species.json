@@ -1,0 +1,65 @@
+{
+    "name": "species",
+    "children": [ 
+    {
+        "size" : 20,
+        "name" : "Magnolia grandiflora :: Southern Magnolia"
+      }, {
+        "size" : 19,
+        "name" : "Tree(s) ::"
+      }, {
+        "size" : 18,
+        "name" : "Arbutus 'Marina' :: Hybrid Strawberry Tree"
+      }, {
+        "size" : 17,
+        "name" : "Pittosporum undulatum :: Victorian Box"
+      }, {
+        "size" : 16,
+        "name" : "Tristaniopsis laurina :: Swamp Myrtle"
+      }, {
+        "size" : 15,
+        "name" : "Metrosideros excelsa :: New Zealand Xmas Tree"
+      }, {
+        "size" : 14,
+        "name" : "Platanus x hispanica :: Sycamore: London Plane"
+      }, {
+        "size" : 13,
+        "name" : "Lophostemon confertus :: Brisbane Box"
+      }, {
+        "size" : 12,
+        "name" : "Ficus nitida :: Laurel Fig"
+      }, {
+        "size" : 11,
+        "name" : "Maytenus boaria :: Mayten"
+      }, {
+        "size" : 10,
+        "name" : "Prunus cerasifera :: Cherry Plum"
+      }, {
+        "size" : 9,
+        "name" : "Prunus serrulata :: Ornamental Cherry"
+      }, {
+        "size" : 8,
+        "name" : "Corymbia ficifolia :: Red Flowering Gum"
+      }, {
+        "size" : 7,
+        "name" : "Prunus serrulata 'Kwanzan' :: Kwanzan Flowering Cherry"
+      }, {
+        "size" : 6,
+        "name" : "Pyrus kawakamii :: Evergreen Pear"
+      }, {
+        "size" : 5,
+        "name" : "Ginkgo biloba :: Maidenhair Tree"
+      }, {
+        "size" : 4,
+        "name" : "Ficus microcarpa :: Chinese Banyan"
+      }, {
+        "size" : 3,
+        "name" : "Pyrus calleryana :: Ornamental Pear"
+      }, {
+        "size" : 2,
+        "name" : "Rhaphiolepis Majestic Beauty :: Indian Hawthorn  'Majestic Beau'"
+      }, {
+        "size" : 1,
+        "name" : "Olea europaea :: Olive Tree"
+      } ]
+}
