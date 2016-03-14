@@ -1,65 +1,234 @@
 {
-    "name": "species",
-    "children": [ 
-    {
-        "size" : 20,
-        "name" : "Magnolia grandiflora :: Southern Magnolia"
-      }, {
-        "size" : 19,
-        "name" : "Tree(s) ::"
-      }, {
-        "size" : 18,
-        "name" : "Arbutus 'Marina' :: Hybrid Strawberry Tree"
-      }, {
-        "size" : 17,
-        "name" : "Pittosporum undulatum :: Victorian Box"
-      }, {
-        "size" : 16,
-        "name" : "Tristaniopsis laurina :: Swamp Myrtle"
-      }, {
-        "size" : 15,
-        "name" : "Metrosideros excelsa :: New Zealand Xmas Tree"
-      }, {
-        "size" : 14,
-        "name" : "Platanus x hispanica :: Sycamore: London Plane"
-      }, {
-        "size" : 13,
-        "name" : "Lophostemon confertus :: Brisbane Box"
-      }, {
-        "size" : 12,
-        "name" : "Ficus nitida :: Laurel Fig"
-      }, {
-        "size" : 11,
-        "name" : "Maytenus boaria :: Mayten"
-      }, {
-        "size" : 10,
-        "name" : "Prunus cerasifera :: Cherry Plum"
-      }, {
-        "size" : 9,
-        "name" : "Prunus serrulata :: Ornamental Cherry"
-      }, {
-        "size" : 8,
-        "name" : "Corymbia ficifolia :: Red Flowering Gum"
-      }, {
-        "size" : 7,
-        "name" : "Prunus serrulata 'Kwanzan' :: Kwanzan Flowering Cherry"
-      }, {
-        "size" : 6,
-        "name" : "Pyrus kawakamii :: Evergreen Pear"
-      }, {
-        "size" : 5,
-        "name" : "Ginkgo biloba :: Maidenhair Tree"
-      }, {
-        "size" : 4,
-        "name" : "Ficus microcarpa :: Chinese Banyan"
-      }, {
-        "size" : 3,
-        "name" : "Pyrus calleryana :: Ornamental Pear"
-      }, {
-        "size" : 2,
-        "name" : "Rhaphiolepis Majestic Beauty :: Indian Hawthorn  'Majestic Beau'"
-      }, {
-        "size" : 1,
-        "name" : "Olea europaea :: Olive Tree"
-      } ]
+    "name": "tree-data",
+    "children": [
+        {
+        "name": "Site Info",
+        "children": [
+            {
+            "size" : 20,
+            "name" : "Sidewalk: Curb side : Cutout"
+          }, {
+            "size" : 19,
+            "name" : "Median : Cutout"
+          }, {
+            "size" : 18,
+            "name" : "Sidewalk: Curb side : Pot"
+          }, {
+            "size" : 17,
+            "name" : "unknown : Yard"
+          }, {
+            "size" : 16,
+            "name" : "Front Yard : Yard"
+          }, {
+            "size" : 15,
+            "name" : "Sidewalk: Property side : Cutout"
+          }, {
+            "size" : 14,
+            "name" : "Unaccepted Street : Cutout"
+          }, {
+            "size" : 13,
+            "name" : "Unaccepted Street : Yard"
+          }, {
+            "size" : 12,
+            "name" : "Sidewalk: Property side : Yard"
+          }, {
+            "size" : 11,
+            "name" : "Sidewalk: Curb side : Yard"
+          }, {
+            "size" : 10,
+            "name" : "Median : Yard"
+          }, {
+            "size" : 9,
+            "name" : "unknown : Pot"
+          }, {
+            "size" : 8,
+            "name" : "Front Yard : Cutout"
+          }, {
+            "size" : 7,
+            "name" : "Sidewalk: Property side : Pot"
+          }, {
+            "size" : 6,
+            "name" : "Back Yard : Yard"
+          }, {
+            "size" : 5,
+            "name" : "Site : Unknown"
+          }, {
+            "size" : 4,
+            "name" : ": Yard"
+          }, {
+            "size" : 3,
+            "name" : "Side Yard : Yard"
+          }, {
+            "size" : 2,
+            "name" : "Side Yard : Cutout"
+          }, {
+            "size" : 1,
+            "name" : "Median :"
+          }
+            
+        ]
+        },
+        {
+        "name": "Caretaker",
+        "children": [ {
+            "size" : 20,
+            "name" : "Private"
+          }, {
+            "size" : 19,
+            "name" : "Rec/Park"
+          }, {
+            "size" : 18,
+            "name" : "DPW"
+          }, {
+            "size" : 17,
+            "name" : "DPW for City Agency"
+          }, {
+            "size" : 16,
+            "name" : "Fire Dept"
+          }, {
+            "size" : 15,
+            "name" : "SFUSD"
+          }, {
+            "size" : 14,
+            "name" : "Dept of Real Estate"
+          }, {
+            "size" : 13,
+            "name" : "Port"
+          }, {
+            "size" : 12,
+            "name" : "PUC"
+          }, {
+            "size" : 11,
+            "name" : "Mayor Office of Housing"
+          }, {
+            "size" : 10,
+            "name" : "Purchasing Dept"
+          }, {
+            "size" : 9,
+            "name" : "Police Dept"
+          }, {
+            "size" : 8,
+            "name" : "Health Dept"
+          }, {
+            "size" : 7,
+            "name" : "Housing Authority"
+          }, {
+            "size" : 6,
+            "name" : "War Memorial"
+          }, {
+            "size" : 5,
+            "name" : "MTA"
+          }, {
+            "size" : 4,
+            "name" : "Office of Mayor"
+          }, {
+            "size" : 3,
+            "name" : "Arts Commission"
+          }, {
+            "size" : 2,
+            "name" : "Asian Arts Commission"
+          }, {
+            "size" : 1,
+            "name" : "City College"
+          } ]
+        },
+        {
+        "name": "species",
+        "children": [
+            {
+            "name": "Category 1",
+            "children": [{
+                "size" : 20,
+                "name" : "Magnolia grandiflora :: Southern Magnolia"
+                },
+                {
+                "size" : 12,
+                "name" : "Ficus nitida :: Laurel Fig"
+                }, {
+                "size" : 11,
+                "name" : "Maytenus boaria :: Mayten"
+                }, {
+                "size" : 10,
+                "name" : "Prunus cerasifera :: Cherry Plum"
+              }]
+            }, 
+            {
+                "name": "Category 2",
+                "children": [{
+                "size" : 19,
+                "name" : "Tree(s) :: unspecified"
+            }]
+            }, 
+            {
+                "name": "Arbutus Marina",
+                "children": [{
+                  "size" : 18,
+                  "name" : "Arbutus 'Marina' :: Hybrid Strawberry Tree"  
+                }]
+            },
+            {
+                "name": "Pittosporum undulatum",
+                "children": [{
+                    "size" : 17,
+                    "name" : "Pittosporum undulatum :: Victorian Box"  
+                }]
+            }, 
+            {
+                "name": "Tristaniopsis laurina",
+                "children": [{
+                    "size" : 16,
+                    "name" : "Tristaniopsis laurina :: Swamp Myrtle"
+                }]
+
+          },
+          {
+              "name": "Metrosideros excelsa",
+              "children": [{
+                  "size" : 15,
+                  "name" : "Metrosideros excelsa :: New Zealand Xmas Tree"
+              }]
+          },
+          {
+              "name": "Platanus x hispanica",
+              "children": [{
+                 "size" : 14,
+                 "name" : "Platanus x hispanica :: Sycamore: London Plane"  
+              }]
+          }, 
+          {
+              "name": "Lophostemon confertus",
+              "children": [{
+                  "size" : 13,
+                  "name" : "Lophostemon confertus :: Brisbane Box"
+              }]
+                      },  {
+            "size" : 9,
+            "name" : "Prunus serrulata :: Ornamental Cherry"
+          }, {
+            "size" : 8,
+            "name" : "Corymbia ficifolia :: Red Flowering Gum"
+          }, {
+            "size" : 7,
+            "name" : "Prunus serrulata 'Kwanzan' :: Kwanzan Flowering Cherry"
+          }, {
+            "size" : 6,
+            "name" : "Pyrus kawakamii :: Evergreen Pear"
+          }, {
+            "size" : 5,
+            "name" : "Ginkgo biloba :: Maidenhair Tree"
+          }, {
+            "size" : 4,
+            "name" : "Ficus microcarpa :: Chinese Banyan"
+          }, {
+            "size" : 3,
+            "name" : "Pyrus calleryana :: Ornamental Pear"
+          }, {
+            "size" : 2,
+            "name" : "Rhaphiolepis Majestic Beauty :: Indian Hawthorn  'Majestic Beau'"
+          }, {
+            "size" : 1,
+            "name" : "Olea europaea :: Olive Tree"
+          } ]
+        }
+    ]
 }
